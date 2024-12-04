@@ -14,11 +14,19 @@
                 <a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
                 <span> http://github.com/{{ site.github_username }} </span>
             {{ endif }}
+        </div>
+        <div class="social">
 <!--             {{ if site.codepen_username }}<a href="http://codepen.io/{{ site.codepen_username }}" target="_blank">CodePen</a>{{ endif }} -->
 <!--             {{ if site.twitter_username }}<a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>{{ endif }} -->
             {{ if site.email_address }}
                 <a href="mailto:{{ site.email_address }}" target="_blank">Email</a>
                 <span>{{ site.email_address }} </span>
+            {{ endif }}
+        </div>
+        <div class="social">
+            {{ if site.blog }}
+                <a href="{{ site.blog_address }}" target="_blank">blog</a>
+                <span>{{ site.blog_address }} </span>
             {{ endif }}
         </div>
         {{ endif }}
