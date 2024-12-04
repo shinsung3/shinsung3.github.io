@@ -5,16 +5,18 @@ title: 조신성 | 서버 백엔드 개발자
 title2: Back-End Developer
 email: tlstjd436@naver.com / nustar@kakao.com
 # description: Jekyll Resume is a mega simple resume theme for Jekyll.
+
 baseurl: ""
 url: "https://www.github.com/shinsung3"
 name: 조신성
 job: Back-End Engineer
 location: Seoul, Korea
 languages: Java, Spring Framework, Spring Batch, JSP, HTML, XPlatform, REST API, Redis, JavaScript
-twitter_username: mattcouchman
-github_username:  mattcouchman
-codepen_username:  mattcouchman
+# twitter_username: mattcouchman
+github_username:  shinsung3
+# codepen_username:  mattcouchman
 email_address: tlstjd436@naver.com
 
 # Build settings
 markdown: kramdown
+
