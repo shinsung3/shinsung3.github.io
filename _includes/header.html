@@ -8,28 +8,15 @@
             <p class="intro__post">{{ site.title2 }}</p>
         </div>
 
-        {{ if site.github_username or site.codepen_username or site.twitter_username or site.email_address }}
+        
         <div class="social">
-            {{ if site.github_username }}
-                <a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
-                <span> http://github.com/{{ site.github_username }} </span>
-            {{ endif }}
+            <a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+            <span> http://github.com/{{ site.github_username }} </span>
+            <a href="mailto:{{ site.email_address }}" target="_blank">Email</a>
+            <span>{{ site.email_address }} </span>
+            <a href="{{ site.blog_address }}" target="_blank">blog</a>
+            <span>{{ site.blog_address }} </span>
         </div>
-        <div class="social">
-<!--             {{ if site.codepen_username }}<a href="http://codepen.io/{{ site.codepen_username }}" target="_blank">CodePen</a>{{ endif }} -->
-<!--             {{ if site.twitter_username }}<a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>{{ endif }} -->
-            {{ if site.email_address }}
-                <a href="mailto:{{ site.email_address }}" target="_blank">Email</a>
-                <span>{{ site.email_address }} </span>
-            {{ endif }}
-        </div>
-        <div class="social">
-            {{ if site.blog_address }}
-                <a href="{{ site.blog_address }}" target="_blank">blog</a>
-                <span>{{ site.blog_address }} </span>
-            {{ endif }}
-        </div>
-        {{ endif }}
 
     </div>
 </header>
