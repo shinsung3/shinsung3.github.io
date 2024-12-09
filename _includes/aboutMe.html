@@ -1,5 +1,5 @@
 <div class="line">
-    <h3 class="section-title">Experience</h3>
+    <h3 class="section-title">About Me</h3>
     <dl class="experience">
         {% for job in site.data.jobs %}
             <dt>
@@ -9,20 +9,6 @@
             </dt><!--
             --><dd>
                 <p>{{ job.description }}</p>
-            </dd>
-        {% endfor %}
-    </dl>
-    
-    <h3 class="section-title">Education</h3>
-    <dl class="education">
-        {% for qualification in site.data.education %}
-            <dt>
-                <p class="title">{{ qualification.qualification }}</p>
-                <p class="company">{{ qualification.school }}</p>
-                <p class="period">{{ qualification.period }}</p>
-            </dt><!--
-            --><dd>
-                <p>{{ qualification.description }}</p>
             </dd>
         {% endfor %}
     </dl>
