@@ -1,14 +1,14 @@
 <div class="line">
     <h3 class="section-title">About Me</h3>
     <dl class="experience">
-        {% for me in site.data.aboutMe %}
+        {% for job in site.data.jobs %}
             <dt>
-                <p class="title">aa</p>
-                <p class="company">nn</p>
-                <p class="period">dd</p>
-            </dt>
-            <dd>
-                <p>{{ me.introduction }}</p>
+                <p class="title">{{ job.title }}</p>
+                <p class="company">{{ job.company }}</p>
+                <p class="period">{{ job.period }}</p>
+            </dt><!--
+            --><dd>
+                <p>{{ job.description }}</p>
             </dd>
         {% endfor %}
     </dl>
