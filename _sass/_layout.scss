@@ -13,7 +13,7 @@ $spacer: 20px;
 .section-title {
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin-bottom: ($spacer * 2);
+    margin-bottom: $spacer;
     text-align: center;
     position: relative;
     font-size : x-large;
@@ -28,4 +28,9 @@ $spacer: 20px;
         height: 1px;
         background: #222;
     }
+}
+
+.kor-name {
+    margin-bottom: ($spacer * 2);
+    text-align: center;
 }
