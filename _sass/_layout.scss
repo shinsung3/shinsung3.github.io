@@ -34,3 +34,9 @@ $spacer: 20px;
     margin-bottom: ($spacer * 2);
     text-align: center;
 }
+
+.line {
+    border-bottom: 1px solid #edefee;
+    padding: ($spacer * 2) 0;
+    margin-bottom: ($spacer * 2);
+}
