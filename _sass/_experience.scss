@@ -39,9 +39,14 @@ dt, dd {
 }
 
 .period {
-    font-size: x-small;
+    line-height: normal;
+    font-size: small;
     color: gray;
 
+}
+
+.domain{
+    font-style: italic;
 }
 
 .description {
