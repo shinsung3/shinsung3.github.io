@@ -1,7 +1,15 @@
--   qualification: 수학통계학부 응용통계학전공, 디지털콘텐츠학과(컴퓨터)
+-   qualification: |
+        * 수학통계학부 응용통계학전공
+        * 디지털콘텐츠학과(컴퓨터)
+    period: 2012.03 ~ 2018.02
     school: 세종대학교 (Sejong Univ.)
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
--   qualification: Java & Spring, Python & Django, MySQL, 알고리즘 과정 수료
+-   qualification: |
+    * Java & Spring
+    * Python & Django
+    * MySQL
+    * 알고리즘 과정 수료
+    period: 2018.12 ~ 2019.12
     school: 삼성청년SW아카데미 (SSAFY)
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
