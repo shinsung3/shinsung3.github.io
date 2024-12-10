@@ -9,7 +9,9 @@
             <p class="period">{{ qualification.period }}</p>
         </dt><!--
         --><dd>
-            <p>{{ qualification.description }}</p>
+            <ul class="description">
+                <li>{{ qualification.description | strip | markdownify }}</li>
+            </ul>
         </dd>
     {% endfor %}
 </dl>
