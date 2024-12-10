@@ -2,8 +2,11 @@
     company: (주) 현대퓨처넷
     period: 2021.01.04 ~ 현재
     domain: E-Commerce
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+    description: |
+        * 운영지원사업부 한섬2팀 / 리테일
+        * [H패션몰] 리뷰 API인 Crema API 개발 및 운영
+        * RPA를 이용한 물류 세금 자동화 처리 시스템 개발 및 운영 (최초 도입)
+        
 -   title: RPA 개발자, 웹 개발자
     company: (주) 대림
     period: 2020.01.01 ~ 2020.12.31
