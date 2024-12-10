@@ -9,7 +9,10 @@
                 <p class="period">{{ job.period }}</p>
             </dt><!--
             --><dd>
-                <p>{{ job.description }}</p>
+<!--                 <p>{{ job.description }}</p> -->
+                <ul class="description">
+                    <li>{{ job.description }}</li>
+                </ul>
             </dd>
         {% endfor %}
     </dl>
