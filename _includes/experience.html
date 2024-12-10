@@ -11,7 +11,7 @@
             --><dd>
 <!--                 <p>{{ job.description }}</p> -->
                 <ul class="description">
-                    <li>{{ job.description }}</li>
+                    <li>{{ include.item.description | strip | markdownify }}</li>
                 </ul>
             </dd>
         {% endfor %}
