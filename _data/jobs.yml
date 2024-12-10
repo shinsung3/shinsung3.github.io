@@ -7,4 +7,4 @@
     company: (주) 대림
     period: 2020.01.01 ~ 2020.12.31
     description: |
-    * 사내 모니터링 & 알람 도입 (APM / CloudWatch & Lambda)
+    - 사내 모니터링 & 알람 도입 (APM / CloudWatch & Lambda)
