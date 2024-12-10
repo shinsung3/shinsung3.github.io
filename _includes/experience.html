@@ -10,6 +10,9 @@
                 <p class="company">
                     <span class="domain">{{ job.domain }}</span>
                 </p>
+                <ul class="period">
+                    <li>{{ job.info | strip | markdownify }}</li>
+                </ul>
             </dt><!--
             --><dd>
 <!--                 <p>{{ job.description }}</p> -->
