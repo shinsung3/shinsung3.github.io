@@ -20,7 +20,10 @@
 -   title: RPA 개발자, 웹 개발자
     company: (주) 대림
     period: 2020.01.01 ~ 2020.12.31
-    domain: ERP, RPA
+    domain: ERP
+    info : |
+        * RPA
+        * WEB
     description: |
         * IT사업부 제조SM팀 / 주임
         * 물류 시스템 (Dlogis) Web 시스템 개발 및 운영
