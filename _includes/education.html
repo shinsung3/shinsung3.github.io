@@ -2,7 +2,9 @@
 <dl class="education">
     {% for qualification in site.data.education %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
+            <ul class="title">
+                <li>{{ qualification.qualification | strip | markdownify }}</li>
+            </ul>
             <p class="company">{{ qualification.school }}</p>
             <p class="period">{{ qualification.period }}</p>
         </dt><!--
