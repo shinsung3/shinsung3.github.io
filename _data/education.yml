@@ -6,12 +6,8 @@
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 -   qualification: |
-           * Java & Spring
-           * Python & Django
-           * MySQL
-           * 알고리즘 과정 수료
+       삼성청년SW아카데미 (SSAFY)
     period: 2018.12 ~ 2019.12
-    school: 삼성청년SW아카데미 (SSAFY)
     description: |
            * 교육시간 - 1,600시간
            * 기술 - JAVA, Spring, SQL, Python, Django
