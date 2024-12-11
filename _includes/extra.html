@@ -2,17 +2,15 @@
     <h3 class="section-title">Extra Information</h3>
     <h5 class="kor-name">✔ 추가정보</h5>
     <dl class="education exta-container">
-        {% for qualification in site.data.education %}
+        {% for extra in site.data.extra %}
             <dt>
-                <ul class="title">
-                    <li>{{ qualification.qualification | strip | markdownify }}</li>
-                </ul>
-                <p class="period">{{ qualification.period }}</p>
-                <p class="company">{{ qualification.organizer }}</p>
+                <p>{{ extra.qualification | strip | markdownify }}</p>
+                <p class="period">{{ extra.period }}</p>
+                <p class="company">{{ extra.organizer }}</p>
             </dt><!--
             --><dd>
                 <div class="description">
-                    {{ qualification.description | strip | markdownify }}
+                    {{ extra.description | strip | markdownify }}
                 </div>
             </dd>
         {% endfor %}
