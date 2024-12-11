@@ -41,12 +41,15 @@ dt {
 .description {
     letter-spacing: 1px;
     line-height: 1.5;
-    font-size: small;
 }
 
 .company {
     color: gray;
     font-style: italic;
+}
+
+.extra-list {
+    font-size: small;
 }
 
 .extra-list ul {
