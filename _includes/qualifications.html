@@ -2,9 +2,11 @@
 <dl class="qualification">
     {% for q in site.data.qualifications %}
         <dt class="center">
-            <p class="qual-title steelblue-text">{{ q.qualification }}</p>
+            <p class="qual-title">
+                <span class="steelblue-text">{{ q.qualification }}</span>
+            </p>
             <p class="period">{{ q.period }}</p>
-            <p class="qual-company">{{ q.organizer }}</p>
+            <p class="qual-company"><b>{{ q.organizer }}</b></p>
         </dt><!--
         -->
     {% endfor %}
