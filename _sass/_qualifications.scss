@@ -26,6 +26,8 @@ dt {
 }
 
 .qualification {
+    position: relative;
+    
      &:after {
         content: '';
         position: absolute;
