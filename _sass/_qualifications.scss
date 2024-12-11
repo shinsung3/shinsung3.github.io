@@ -25,6 +25,10 @@ dt {
     }
 }
 
+.qualification dt:after {
+    width:40px;
+}
+
 .qualification.title {
     margin: 0;
     font-size: 1rem;
