@@ -18,25 +18,10 @@ dt {
 
     .qualification{
         dt {
-            width: 33%;
+            width: 25%;
             border-top: 2px solid #edefee;
             padding: 15px;
         }
-    }
-}
-
-.qualification {
-    position: relative;
-    
-     &:after {
-        content: '';
-        position: absolute;
-        bottom: -5px;
-        left: 50%;
-        margin-left: -25px;
-        width: 50px;
-        height: 1px;
-        background: #222;
     }
 }
 
