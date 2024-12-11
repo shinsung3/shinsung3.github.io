@@ -5,10 +5,11 @@ dl {
     margin-bottom: $spacer;
 }
 
-dt {
+.qualification dt {
     display: inline-block;
     vertical-align: top;
     margin-bottom: $spacer;
+    padding: 15px;
 }
 
 @media(min-width: 640px) {
