@@ -9,20 +9,18 @@ dt {
     display: inline-block;
     vertical-align: top;
     margin-bottom: $spacer;
-    border: 2px dashed #adb5bd;
-    padding: 15px;
 }
 
 @media(min-width: 640px) {
     dt {
         margin-bottom: 60px;
-        border: 2px dashed #adb5bd;
-        padding: 15px;
     }
 
     .qualification{
         dt {
             width: 33.3%;
+            border: 2px dashed #adb5bd;
+            padding: 15px;
         }
     }
 }
