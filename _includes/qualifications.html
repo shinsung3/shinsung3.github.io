@@ -1,0 +1,18 @@
+<div class="line">
+    <h3 class="section-title">Extra Information</h3>
+    <h5 class="kor-name">✔ 추가정보</h5>
+    <dl class="experience">
+        {% for extra in site.data.extra %}
+            <dt class="center">
+                <p class="title">{{ extra.qualification }}</p>
+                <p class="period">{{ extra.period }}</p>
+                <p class="company">{{ extra.organizer }}</p>
+            </dt><!--
+            --><dd>
+                <div class="description extra-list">
+                    {{ extra.description | strip | markdownify }}
+                </div>
+            </dd>
+        {% endfor %}
+    </dl>
+</div>
