@@ -2,6 +2,7 @@
 // @description All typography settings and styles
 
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700|Playfair+Display:400,700,900);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 
 // Our variables
 $base-font-family: "Lora", Helvetica, Arial, sans-serif;
@@ -11,4 +12,10 @@ body {
     font-family: $base-font-family, serif;
     font-size: $base-font-size;
     line-height: 1.4;
+}
+
+.extra-container {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
