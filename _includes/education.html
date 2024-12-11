@@ -9,9 +9,9 @@
             <p class="company">{{ qualification.school }}</p>
         </dt><!--
         --><dd>
-            <ul class="description">
-                <li>{{ qualification.description | strip | markdownify }}</li>
-            </ul>
+            <div class="description">
+                {{ qualification.description | strip | markdownify }}
+            </div>
         </dd>
     {% endfor %}
 </dl>
