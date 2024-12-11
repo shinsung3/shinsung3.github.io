@@ -15,17 +15,35 @@ dt, dd {
     dt, dd {
         margin-bottom: 60px;
     }
-    .education {
-        dt, dd {
-            width: 50%;
+
+    .experience {
+        dt {
+            width: 30%;
+            padding-right: ($spacer * 2);
+        }
+        dd {
+            width: 70%;
         }
     }
 }
 
 .title {
     margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.period {
+    line-height: normal;
+    font-size: small;
+    color: gray;
+
+}
+
+
+.description {
+    letter-spacing: 1px;
+    line-height: 1.5;
+
 }
 
 a {
