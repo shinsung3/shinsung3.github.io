@@ -1,18 +1,20 @@
-<h3 class="section-title">Education</h3>
-<h5 class="kor-name">교육사항</h5>
-<dl class="education">
-    {% for qualification in site.data.education %}
-        <dt>
-            <ul class="title">
-                <li>{{ qualification.qualification | strip | markdownify }}</li>
-            </ul>
-            <p class="period">{{ qualification.period }}</p>
-            <p class="company">{{ qualification.school }}</p>
-        </dt><!--
-        --><dd>
-            <div class="description">
-                {{ qualification.description | strip | markdownify }}
-            </div>
-        </dd>
-    {% endfor %}
-</dl>
+<div class="line>
+    <h3 class="section-title">Education</h3>
+    <h5 class="kor-name">교육사항</h5>
+    <dl class="education">
+        {% for qualification in site.data.education %}
+            <dt>
+                <ul class="title">
+                    <li>{{ qualification.qualification | strip | markdownify }}</li>
+                </ul>
+                <p class="period">{{ qualification.period }}</p>
+                <p class="company">{{ qualification.school }}</p>
+            </dt><!--
+            --><dd>
+                <div class="description">
+                    {{ qualification.description | strip | markdownify }}
+                </div>
+            </dd>
+        {% endfor %}
+    </dl>
+</div>
