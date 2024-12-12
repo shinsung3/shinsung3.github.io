@@ -35,8 +35,30 @@ dt, dd {
 
 .title {
     margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.period {
+    line-height: normal;
+    font-size: small;
+    color: gray;
+
+}
+
+.pro-info ul {
+    list-style: inside;
+
+}
+
+.domain{
+    font-style: italic;
+    background-color: papayawhip;
+}
+
+.description {
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: 90%;
 }
 
 a {
@@ -48,13 +70,4 @@ a {
         background: rgba(245, 215, 110, 1);
         text-decoration: none;
     }
-}
-
-.introduction {
-    letter-spacing: 1px;
-    line-height: 2;
-}
-
-.profile {
-    width: -webkit-fill-available;
 }
