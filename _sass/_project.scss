@@ -52,15 +52,23 @@ dt, dd {
     background-color: papayawhip;
 }
 
-.description {
+.pro-description {
     letter-spacing: 1px;
     line-height: 1.8;
     font-size: 90%;
 }
 
-.description ul ul {
+.pro-description ul ul {
     list-style: inside;
     list-style-type: circle;
+}
+
+.pro-description mark{
+    background-color: #607575;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 90%;
+    padding: 2px 4px;
 }
 
 a {
