@@ -1,8 +1,7 @@
 <div class="line">
     <h3 class="section-title">Project</h3>
-    {% for job, i in site.data.jobs %}
-        <h4 class="kor-name">{{ index:forloop.counter }} 프로젝트 </h4>
-            {{ i.index }}
+    {% for job in site.data.jobs %}
+        <h4 class="kor-name">{{ job.index }}. 프로젝트 </h4>
         <dl class="experience">
             <dt>
                 <p class="title">{{ job.company }}</p>
