@@ -1,14 +1,10 @@
 <div class="line">
     <h3 class="section-title">Project</h3>
     {% for pro in site.data.project %}
-        <h4 class="kor-name">{{ pro.index }}. {{ pro.company }} </h4>
+        <h4 class="kor-name">{{ pro.index }}. {{ pro.title }} </h4>
         <dl class="experience">
             <dt>
-                <p class="company">{{ pro.title }}</p>
                 <p class="period">{{ pro.period }}</p>
-                <p class="company">
-                    <span class="domain">{{ pro.domain }}</span>
-                </p>
                 <ul class="period">
                     {{ pro.info | strip | markdownify }}
                 </ul>
