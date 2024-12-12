@@ -8,12 +8,13 @@ dl {
 dt, dd {
     display: inline-block;
     vertical-align: top;
-    margin-bottom: $spacer;
+    margin: $spacer;
 }
 
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 60px;
+        margin: $spacer;
     }
 
     .experience {
