@@ -19,17 +19,4 @@
             * 주문상세 3.73sec → 0.47sec
             * 클레임 2.96sec → 0.13sec
         * H패션몰 H.Plus 포인트 적립에서 한섬 마일리지로 적립 전환을 위한 마일리지 API 개발
-        
--   title: RPA 개발자, 웹 개발자
-    index: 2
-    company: (주) 대림
-    period: 2020.01.01 ~ 2020.12.31
-    domain: ERP
-    info : |
-        * RPA
-        * WEB
-        * DL 계열사
-    description: |
-        * IT사업부 제조SM팀 / 주임
-        * 물류 시스템 (Dlogis) Web 시스템 개발 및 운영
-        * <mark>RPA</mark>를 이용한 <mark>물류 세금 자동화 처리 시스템</mark> 개발 및 운영 (최초 도입)
+
