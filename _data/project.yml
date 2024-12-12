@@ -1,4 +1,33 @@
--   introduction: Java & Spring, AWS 기반의 <mark>6년차 서버 백엔드 개발자</mark>입니다.
--   info1: 누적 회원수 100만 & 70만, MAU 400만, 250만의 <mark>패션 이커머스</mark>에서 백엔드 플랫폼 개발, 프론트엔드 개발 등을 해왔습니다. 
--   info2: 장애를 발생되지 않도록 <mark>사전에 문제 발생 코드를 제거</mark>하고 문제가 생길 때는 빠르게 대응할 수 있도록 합니다. 제 업무가 아니더라도 Redis 정책을 변경하고, 추천상품, 할인 혜택가 등을 조절할 수 있게 백오피스에서 MD가 조절할 수 있게 개발하기도 했습니다.
--   info2: 현재는 <mark>다양한 시선</mark>으로 <mark>더 나은 코드</mark>를 짜기 위해 노력하며 성장하려고 하고 있습니다.
+-   title: Java & Spring 백엔드 개발자
+    index: 1
+    company: (주) 현대퓨처넷
+    period: 2021.01.04 ~ 현재
+    domain: e-commerce
+    info : |
+        * H Fashion 몰
+        * EQL 몰
+        * 현대백화점 계열사
+    description: |
+        * IT사업본부 운영지원사업부 한섬2팀 _한섬_
+        * IT사업본부 리테일사업부문 e커머스팀 _백화점정보사업부_
+        * <mark>Redis</mark> 메모리 최적화 분석 및 장애 방지 개발
+        * Back-Office 전시 코너 수기 등록 전체 제거 작업 _(52건 > 0건)_
+        * 리뷰 API인 <mark>Crema API 도입</mark> 및 개발, 운영 _(`23.10-`24.09)_
+        * 타미힐피거 & 무스너클 <mark>브랜드관 신규 개발 프로젝트</mark> _(`23.02-`23.08)_
+        * 편집샵 입점 및 <mark>메인페이지 리뉴얼</mark> _(`22.10-`23.03)_
+        * 고객 관심 채팅 분석 플랫폼 최초 도입, 개발 (라이브 & 리뷰) _(`22.05-`22.10)_
+        * <mark>라이브 커머스</mark> Shoplive API 개발 및 운영 _(`21.07-`22.03)_
+        
+-   title: RPA 개발자, 웹 개발자
+    index: 2
+    company: (주) 대림
+    period: 2020.01.01 ~ 2020.12.31
+    domain: ERP
+    info : |
+        * RPA
+        * WEB
+        * DL 계열사
+    description: |
+        * IT사업부 제조SM팀 / 주임
+        * 물류 시스템 (Dlogis) Web 시스템 개발 및 운영
+        * <mark>RPA</mark>를 이용한 <mark>물류 세금 자동화 처리 시스템</mark> 개발 및 운영 (최초 도입)
