@@ -2,12 +2,14 @@
     <h3 class="section-title">Competency</h3>
     <h5 class="kor-name">✔ 역량</h5>
     <dl class="competency">
-        <dd class="com-info">
-            {% for com in site.data.competency %}
-                <p class="introduction">{{ com.introduction }}</p>
-                <p class="introduction">{{ com.info1 }}</p>
-                <p class="introduction">{{ com.info2 }}</p>
-            {% endfor %}
-        </dd>
+        {% for com in site.data.competency %}
+            <dt>{{ com.main }}</dt>
+            <dd class="com-info">
+                <p class="introduction">{{ com.title }}</p>
+                <p class="introduction">{{ com.problem }}</p>
+                <p class="introduction">{{ com.solution }}</p>
+                <p class="introduction">{{ com.competency }}</p>
+            </dd>
+        {% endfor %}
     </dl>
 </div>
