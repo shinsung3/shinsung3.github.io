@@ -51,7 +51,7 @@
         *  <mark>300개 이상</mark> 해외 브랜드 편집샵 입점 개발
             * PC/MO 브랜드 이름으로 검색페이지 개발(영어/한글)
             * 브랜드 북마크 개발
-        * 메인 페이지 전체 리뉴얼
+        * <mark>모바일 메인 페이지</mark> 전체 리뉴얼
             * 메인 페이지 내 코너모듈마다 1:1로 연결되던 로직을 1:N로직으로 전체 개선하여 속도개선
         
 
@@ -66,76 +66,26 @@
         * CSS
         * 팀 리더
     description: |
-        * 2021년도 스타트업 데이 1등으로 회사 내 시스템 도입 시도
+        * <mark>스타트업데이 1등</mark>으로 회사 내 시스템 도입 시도
         * 한섬 라이브 방송 <mark>채팅 분석</mark> 시스템 개발
         * 한섬 상품 텍스트 데이터 <mark>리뷰 분석</mark> 시스템 개발
         * 긍정어, 부정어 구분 기능
         * Hot Keyword 분석 기능
         * 가장 많이 언급된 키워드 분석 기능
 
--   title: 리뷰 API인 Crema API 도입 프로젝트
-    index: 1
-    period: 2023.10 ~ 2024.09
+-   title: 라이브 커머스 도입 & Shoplive API 개발
+    index: 5
+    period: 2021.7 ~ 2022.3
     info : |
-        * Spring batch
-        * Java
         * Spring
-        * Rest API
-    description: |
-        * 상품, 주문, 주문상세&클레임, 리뷰, 카테고리 API 개발 및 연동 _(`23.10 - `24.02)_
-        * 각 API 단 건 전송을 <mark>List로 변경하여 전송하는 v2 개발</mark> _(`24.03 - `24.08)_
-        * 인터페이스 내역 감소로 인한 장애 사전 대응 작업
-            * 주문 36만건 → 1만건, 결과: 누적 데이터 <mark>97%감소</mark>
-            * 주문 상세&클레임 67만건 → 8천건, 결과: 누적 데이터 <mark>98%감소</mark>
-            * 상품 3만건 → 2천건, 결과: 누적 데이터 <mark>94%감소</mark>
-        * FitProduct API 개발을 위해 상품 상세 사이즈 정보 전체 파싱 개발
-        * Crema API인 주문, 주문상세&클레임 쿼리 전체 수정 작업 진행
-            * 주문 <mark>3.19sec → 0.02sec</mark>
-            * 주문상세 <mark>3.73sec → 0.47sec</mark>
-            * 클레임 <mark>2.96sec → 0.13sec</mark>
-        * H패션몰 H.Plus 포인트 적립에서 한섬 마일리지로 적립 전환을 위한 마일리지 API 개발
-
--   title: 리뷰 API인 Crema API 도입 프로젝트
-    index: 1
-    period: 2023.10 ~ 2024.09
-    info : |
-        * Spring batch
         * Java
-        * Spring
+        * JSP
         * Rest API
+        * JWT
+        * OAuth 2.0
     description: |
-        * 상품, 주문, 주문상세&클레임, 리뷰, 카테고리 API 개발 및 연동 _(`23.10 - `24.02)_
-        * 각 API 단 건 전송을 <mark>List로 변경하여 전송하는 v2 개발</mark> _(`24.03 - `24.08)_
-        * 인터페이스 내역 감소로 인한 장애 사전 대응 작업
-            * 주문 36만건 → 1만건, 결과: 누적 데이터 <mark>97%감소</mark>
-            * 주문 상세&클레임 67만건 → 8천건, 결과: 누적 데이터 <mark>98%감소</mark>
-            * 상품 3만건 → 2천건, 결과: 누적 데이터 <mark>94%감소</mark>
-        * FitProduct API 개발을 위해 상품 상세 사이즈 정보 전체 파싱 개발
-        * Crema API인 주문, 주문상세&클레임 쿼리 전체 수정 작업 진행
-            * 주문 <mark>3.19sec → 0.02sec</mark>
-            * 주문상세 <mark>3.73sec → 0.47sec</mark>
-            * 클레임 <mark>2.96sec → 0.13sec</mark>
-        * H패션몰 H.Plus 포인트 적립에서 한섬 마일리지로 적립 전환을 위한 마일리지 API 개발
-
--   title: 리뷰 API인 Crema API 도입 프로젝트
-    index: 1
-    period: 2023.10 ~ 2024.09
-    info : |
-        * Spring batch
-        * Java
-        * Spring
-        * Rest API
-    description: |
-        * 상품, 주문, 주문상세&클레임, 리뷰, 카테고리 API 개발 및 연동 _(`23.10 - `24.02)_
-        * 각 API 단 건 전송을 <mark>List로 변경하여 전송하는 v2 개발</mark> _(`24.03 - `24.08)_
-        * 인터페이스 내역 감소로 인한 장애 사전 대응 작업
-            * 주문 36만건 → 1만건, 결과: 누적 데이터 <mark>97%감소</mark>
-            * 주문 상세&클레임 67만건 → 8천건, 결과: 누적 데이터 <mark>98%감소</mark>
-            * 상품 3만건 → 2천건, 결과: 누적 데이터 <mark>94%감소</mark>
-        * FitProduct API 개발을 위해 상품 상세 사이즈 정보 전체 파싱 개발
-        * Crema API인 주문, 주문상세&클레임 쿼리 전체 수정 작업 진행
-            * 주문 <mark>3.19sec → 0.02sec</mark>
-            * 주문상세 <mark>3.73sec → 0.47sec</mark>
-            * 클레임 <mark>2.96sec → 0.13sec</mark>
-        * H패션몰 H.Plus 포인트 적립에서 한섬 마일리지로 적립 전환을 위한 마일리지 API 개발
-
+        * <mark>라이브 커머스 신규 페이지</mark> 생성
+        * 라이브 방송 댓글을 위한 회원 인증 JWT, OAuth 2.0 적용
+        * Rest API로 예정된 방송, 실시간 방송, 종료된 방송 API 개발
+        * 방송 중 쿠폰 다운로드 개발
+        * 방송 중 장바구니 기능 개발 
