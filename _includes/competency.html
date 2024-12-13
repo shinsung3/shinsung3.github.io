@@ -1,0 +1,16 @@
+<div class="line">
+    <h3 class="section-title">About Me</h3>
+    <dl class="experience">
+        <dt>
+<!--                 <span class="profile-img" style="background-image: url(/img/screen.png)"></span> -->
+            <img class="profile" src="/img/danbi.jpg">
+        </dt><!--
+        --><dd>
+            {% for me in site.data.aboutMe %}
+                <p class="introduction">{{ me.introduction }}</p>
+                <p class="introduction">{{ me.info1 }}</p>
+                <p class="introduction">{{ me.info2 }}</p>
+            {% endfor %}
+        </dd>
+    </dl>
+</div>
