@@ -3,10 +3,10 @@
     <h5 class="kor-name">✔ 역량</h5>
     <dl class="competency">
         <dd class="com-info">
-            {% for me in site.data.aboutMe %}
-                <p class="introduction">{{ me.introduction }}</p>
-                <p class="introduction">{{ me.info1 }}</p>
-                <p class="introduction">{{ me.info2 }}</p>
+            {% for com in site.data.competency %}
+                <p class="introduction">{{ com.introduction }}</p>
+                <p class="introduction">{{ com.info1 }}</p>
+                <p class="introduction">{{ com.info2 }}</p>
             {% endfor %}
         </dd>
     </dl>
