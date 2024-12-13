@@ -33,6 +33,14 @@ dt, dd {
     margin-bottom: $spacer;
     margin-top: $spacer;
     font-weight: bold;
+    padding-bottom: ($spacer*2);
+    padding-left: ($spacer*3);
+    padding-right: ($spacer*3);
+}
+
+.pro-title p {
+    padding: ($spacer*0.5);
+    border-bottom: 3mm ridge rgba(213, 197, 232, .6);
 }
 
 .period {
