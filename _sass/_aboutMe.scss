@@ -11,6 +11,10 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
+.me-img {
+    margin-top: $spacer;
+}
+
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 60px;
