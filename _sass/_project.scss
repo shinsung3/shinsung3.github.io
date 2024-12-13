@@ -33,7 +33,7 @@ dt, dd {
     margin-bottom: $spacer;
     margin-top: $spacer;
     font-weight: bold;
-    padding-bottom: ($spacer*2);
+    padding-bottom: $spacer;
     padding-left: ($spacer*3);
     padding-right: ($spacer*3);
 }
