@@ -11,29 +11,10 @@ dt, dd {
     margin-bottom: $spacer;
 }
 
-.me-img {
-    margin-top: $spacer;
-}
 
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 60px;
-    }
-
-    .experience {
-        dt {
-            width: 30%;
-            padding-right: ($spacer * 2);
-        }
-        dd {
-            width: 70%;
-        }
-    }
-
-    .education {
-        dt, dd {
-            width: 50%;
-        }
     }
 }
 
