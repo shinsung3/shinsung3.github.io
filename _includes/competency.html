@@ -7,11 +7,11 @@
             <dd>
                 <p>▶ {{ com.title }}</p>
                 <div class="com-info">
-                    <b>Problem</b><br/>
+                    <b class="com-bold-title-color">Problem</b><br/>
                     {{ com.problem | strip | markdownify }}
-                    <b>Solution</b>
+                    <b class="com-bold-title-color">Solution</b>
                     {{ com.solution | strip | markdownify }}
-                    <b>KEY POINT</b><br/>
+                    <b class="com-bold-title-color">KEY POINT</b><br/>
                     <p>{{ com.competency }}</p>
                 </div>
             </dd>
