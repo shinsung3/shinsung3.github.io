@@ -6,14 +6,16 @@
             <dt><p class="com-title center">{{ com.main }}</p></dt>
             <dd>
                 <p>▶ {{ com.title }}</p>
-                <b>Problem</b><br/>
-                <p class="com-info">{{ com.problem }}</p>
-                <b>Solution</b>
-                <p class="com-info">
-                    {{ com.solution | strip | markdownify }}
-                </p>
-                <b>KEY POINT : </b><br/>
-                <p class="com-info">{{ com.competency }}</p>
+                <div class="com-info">
+                    <b>Problem</b><br/>
+                    <p>{{ com.problem }}</p>
+                    <b>Solution</b>
+                    <p class="com-info">
+                        {{ com.solution | strip | markdownify }}
+                    </p>
+                    <b>KEY POINT : </b><br/>
+                    <p class="com-info">{{ com.competency }}</p>
+                </div>
             </dd>
         {% endfor %}
     </dl>
