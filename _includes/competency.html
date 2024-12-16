@@ -10,11 +10,9 @@
                     <b>Problem</b><br/>
                     <p>{{ com.problem }}</p>
                     <b>Solution</b>
-                    <p class="com-info">
-                        {{ com.solution | strip | markdownify }}
-                    </p>
+                    {{ com.solution | strip | markdownify }}
                     <b>KEY POINT : </b><br/>
-                    <p class="com-info">{{ com.competency }}</p>
+                    <p>{{ com.competency }}</p>
                 </div>
             </dd>
         {% endfor %}
