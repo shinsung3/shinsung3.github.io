@@ -8,7 +8,9 @@
                 <p>▶ {{ com.title }} ◀</p>
                 <div class="com-info">
                     <b class="com-bold-title-color">Problem</b><br/>
-                    {{ com.problem | strip | markdownify }}
+                    {% if com.problem %}
+                        {{ com.problem | strip | markdownify }}
+                    {% endif %}
                     <b class="com-bold-title-color">Solution</b>
                     {{ com.solution | strip | markdownify }}
                     <b class="com-bold-title-color">Competency</b><br/>
