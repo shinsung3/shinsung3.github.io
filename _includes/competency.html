@@ -5,7 +5,7 @@
         {% for com in site.data.competency %}
             <dt><p class="com-title center">{{ com.main }}</p></dt>
             <dd>
-                <p>▶ {{ com.title }}</p>
+                <p>▶ {{ com.title }} ◀</p>
                 <div class="com-info">
                     <b class="com-bold-title-color">Problem</b><br/>
                     {{ com.problem | strip | markdownify }}
