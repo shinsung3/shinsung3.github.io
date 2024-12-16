@@ -7,8 +7,8 @@
             <dd>
                 <p>▶ {{ com.title }} ◀</p>
                 <div class="com-info">
-                    <b class="com-bold-title-color">Problem</b><br/>
                     {% if com.problem %}
+                        <b class="com-bold-title-color">Problem</b><br/>
                         {{ com.problem | strip | markdownify }}
                     {% endif %}
                     <b class="com-bold-title-color">Solution</b>
