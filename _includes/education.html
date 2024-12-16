@@ -4,9 +4,9 @@
     <dl class="education">
         {% for qualification in site.data.education %}
             <dt>
-                <ul class="title">
-                    <li>{{ qualification.qualification | strip | markdownify }}</li>
-                </ul>
+                <p class="title">
+                    {{ qualification.qualification | strip | markdownify }}
+                </p>
                 <p class="period">{{ qualification.period }}</p>
                 <p class="company">{{ qualification.school }}</p>
             </dt><!--
