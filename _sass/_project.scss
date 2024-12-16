@@ -1,32 +1,6 @@
 // @name Resume
 // @description All resume styles
 
-dl {
-    margin-bottom: $spacer;
-}
-
-dt, dd {
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: $spacer;
-}
-
-@media(min-width: 640px) {
-    dt, dd {
-        margin-bottom: 60px;
-    }
-
-    .experience {
-        dt {
-            width: 30%;
-            padding-right: ($spacer * 2);
-        }
-        dd {
-            width: 70%;
-        }
-    }
-}
-
 .pro-title {
     margin: 0;
     font-size: 1.2rem;
@@ -43,23 +17,9 @@ dt, dd {
     border-bottom: 3mm ridge rgba(213, 197, 232, 0.1);
 }
 
-.period {
-    line-height: normal;
-    font-size: small;
-    color: gray;
-    margin-botton: 10px;
-
-}
-
 .pro-info ul {
-    list-style: inside;
     font-size: small;
     margin: 5px;
-}
-
-.domain{
-    font-style: italic;
-    background-color: papayawhip;
 }
 
 .pro-description {
@@ -79,15 +39,4 @@ dt, dd {
     color: #fff;
     font-size: 90%;
     padding: 2px 4px;
-}
-
-a {
-    color: black!important;
-    background: rgba(245, 215, 110, .5);
-    transition: all linear .2s;
-
-    &:hover {
-        background: rgba(245, 215, 110, 1);
-        text-decoration: none;
-    }
 }
