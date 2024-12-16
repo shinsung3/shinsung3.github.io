@@ -1,19 +1,19 @@
 <div class="line">
     <h3 class="section-title">Competency</h3>
     <h5 class="kor-name">✔ 역량</h5>
-    <dl class="competency">
+    <dl class="competency introduction">
         {% for com in site.data.competency %}
             <dt><p class="com-title center">{{ com.main }}</p></dt>
             <dd>
-                <p class="introduction">▶ {{ com.title }}</p>
+                <p>▶ {{ com.title }}</p>
                 <b>Problem</b><br/>
-                <p class="introduction com-info">{{ com.problem }}</p>
+                <p class="com-info">{{ com.problem }}</p>
                 <b>Solution</b>
-                <p class="introduction com-info">
+                <p class="com-info">
                     {{ com.solution | strip | markdownify }}
                 </p>
                 <b>KEY POINT : </b><br/>
-                <p class="introduction com-info">{{ com.competency }}</p>
+                <p class="com-info">{{ com.competency }}</p>
             </dd>
         {% endfor %}
     </dl>
