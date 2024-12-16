@@ -1,16 +1,6 @@
 // @name Resume
 // @description All resume styles
 
-dl {
-    margin-bottom: $spacer;
-}
-
-dt, dd {
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: $spacer;
-}
-
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 60px;
@@ -26,25 +16,4 @@ dt, dd {
     font-size: small;
     letter-spacing: 1px;
     line-height: 1.8;
-}
-
-.title {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
-    list-style: none;
-}
-.title ul {
-    list-style: none;
-}
-
-a {
-    color: black!important;
-    background: rgba(245, 215, 110, .5);
-    transition: all linear .2s;
-
-    &:hover {
-        background: rgba(245, 215, 110, 1);
-        text-decoration: none;
-    }
 }
