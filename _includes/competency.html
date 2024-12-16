@@ -8,11 +8,10 @@
                 <p>▶ {{ com.title }}</p>
                 <div class="com-info">
                     <b>Problem</b><br/>
-                    <p>{{ com.problem }}</p>
+                    {{ com.problem | strip | markdownify }}
                     <b>Solution</b>
                     {{ com.solution | strip | markdownify }}
                     <b>KEY POINT</b><br/>
-                    {{ com.competency | strip | markdownify }}
                     <p>{{ com.competency }}</p>
                 </div>
             </dd>
