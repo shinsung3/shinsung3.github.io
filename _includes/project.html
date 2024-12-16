@@ -11,9 +11,7 @@
                 <p class="pro-info">
                     사용 스킬
                 </p>
-                <ul class="pro-info">
-                    {{ pro.info | strip | markdownify }}
-                </ul>
+                {{ pro.info | strip | markdownify }}
             </dt><!--
             --><dd class="pro-description">
                 {{ pro.description | strip | markdownify }}
