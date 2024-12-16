@@ -5,7 +5,7 @@
         {% for qualification in site.data.education %}
             <dt>
                 <p class="title">
-                    {{ qualification.qualification | strip | markdownify }}
+                    {{ qualification.qualification }}
                 </p>
                 <p class="period">{{ qualification.period }}</p>
                 <p class="company">{{ qualification.school }}</p>
