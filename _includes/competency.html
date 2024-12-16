@@ -7,7 +7,9 @@
             <dd class="com-info">
                 <p class="introduction">▶ {{ com.title }}</p>
                 <p class="introduction com-info"><b>문제점 : </b>{{ com.problem }}</p>
-                <p class="introduction com-info"><b>해결 방안 : </b>{{ com.solution }}</p>
+                <p class="introduction com-info"><b>해결 방안 : </b>
+                    {{ com.solution | strip | markdownify }}
+                </p>
                 <p class="introduction com-info"><b>KEY POINT : </b>{{ com.competency }}</p>
             </dd>
         {% endfor %}
