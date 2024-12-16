@@ -12,6 +12,11 @@
     padding: 10px;
 }
 
+.competency dd {
+    margin-left: ($spacer * 3);
+    margin-right: ($spacer * 3);
+}
+
 .com-info {
     font-size: small;
 }
