@@ -6,7 +6,7 @@
         * Java
         * Spring
         * Rest API
-    person: 
+    person: |
         * 기획 1명, 프론트엔드 1명, 백엔드 1명
     incharge: |
         * Back-End 개발
@@ -33,7 +33,7 @@
         * Spring
         * JSP
         * jQuery
-    person: 
+    person: |
         * 총 수행사 기획 3명, 개발 6명, 디자이너 2명, 퍼블리셔 2명
         * 현대쪽 기획 2명, 개발 3명
     incharge: |
@@ -57,7 +57,7 @@
         * JSP
         * JavaScript
         * jQuery
-    person: 
+    person: |
         * 기획 2명, 개발 2명
     incharge: |
         * Back-End 개발
@@ -81,7 +81,7 @@
         * JavaScript
         * HTML
         * CSS
-    person: 
+    person: |
         * 개발 2명
     incharge: |
         * 팀 리더
@@ -107,7 +107,7 @@
         * Rest API
         * JWT
         * OAuth 2.0
-    person: 
+    person: |
         * 기획 1명, 앱개발 1명, 웹개발 1명
     incharge: |
         * Back-End 개발
