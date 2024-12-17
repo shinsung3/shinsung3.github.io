@@ -15,7 +15,11 @@
                 <p class="pro-info">
                     담당업무
                 </p>
-                {{ pro.info | strip | markdownify }}
+                {{ pro.in-charge | strip | markdownify }}
+                <p class="pro-info">
+                    투입인원
+                </p>
+                {{ pro.person | strip | markdownify }}
             </dt><!--
             --><dd class="pro-description">
                 {{ pro.description | strip | markdownify }}
