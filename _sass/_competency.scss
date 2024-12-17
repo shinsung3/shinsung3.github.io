@@ -17,12 +17,15 @@
     margin-right: ($spacer * 3);
 }
 
+.competency dd p {
+    font-size: smaller;
+}
+
 .com-info {
     font-size: small;
 }
 
 .com-bold-title-color {
-    font-size: larger;
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: tomato;
