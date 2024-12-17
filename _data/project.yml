@@ -8,7 +8,7 @@
         * Rest API
     person: 
         * 기획 1명, 프론트엔드 1명, 백엔드 1명
-    in-charge: |
+    incharge: |
         * Back-End 개발
         * Back Office 개발
         * H Fashion몰, EQL몰 인터페이스, 배치 개발
@@ -36,7 +36,7 @@
     person: 
         * 총 수행사 기획 3명, 개발 6명, 디자이너 2명, 퍼블리셔 2명
         * 현대쪽 기획 2명, 개발 3명
-    in-charge: |
+    incharge: |
         * 프로젝트 매니징 (PM)
         * QA
         * Back-End 개발
@@ -59,7 +59,7 @@
         * jQuery
     person: 
         * 기획 2명, 개발 2명
-    in-charge: |
+    incharge: |
         * Back-End 개발
         * Front-End 개발
         * Back Office 개발
@@ -83,7 +83,7 @@
         * CSS
     person: 
         * 개발 2명
-    in-charge: |
+    incharge: |
         * 팀 리더
         * Back-End 개발
         * Front-End 개발
@@ -109,7 +109,7 @@
         * OAuth 2.0
     person: 
         * 기획 1명, 앱개발 1명, 웹개발 1명
-    in-charge: |
+    incharge: |
         * Back-End 개발
         * Front-End 개발
         * Back Office 개발
