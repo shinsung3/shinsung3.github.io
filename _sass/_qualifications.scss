@@ -1,10 +1,6 @@
 // @name Resume
 // @description All resume styles
 
-dl {
-    margin-bottom: $spacer;
-}
-
 .qualification dt {
     display: inline-block;
     vertical-align: top;
@@ -13,10 +9,6 @@ dl {
 }
 
 @media(min-width: 640px) {
-    dt {
-        margin-bottom: 60px;
-    }
-
     .qualification{
         dt {
             width: 19%;
@@ -32,33 +24,7 @@ dl {
     color: steelblue;
 }
 
-.period {
-    line-height: normal;
-    font-size: small;
-    color: gray;
-
-}
-
 .qual-company {
     color: gray;
     font-size: x-small;
-}
-
-.extra-list {
-    font-size: small;
-}
-
-.extra-list ul {
-    list-style: none;
-}
-
-a {
-    color: black!important;
-    background: rgba(245, 215, 110, .5);
-    transition: all linear .2s;
-
-    &:hover {
-        background: rgba(245, 215, 110, 1);
-        text-decoration: none;
-    }
 }
