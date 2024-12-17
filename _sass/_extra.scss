@@ -1,55 +1,11 @@
 // @name Resume
 // @description All resume styles
 
-dl {
-    margin-bottom: $spacer;
-}
-
-dt, dd {
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: $spacer;
-}
-
-@media(min-width: 640px) {
-    dt, dd {
-        margin-bottom: 60px;
-    }
-
-    .experience {
-        dt {
-            width: 30%;
-            padding-right: ($spacer * 2);
-        }
-        dd {
-            width: 70%;
-        }
-    }
-}
-
-.title {
+.extra-title {
     margin: 0;
     font-size: 1.2rem;
 }
 
-.period {
-    line-height: normal;
-    font-size: small;
-    color: gray;
-
-}
-
 .extra-list {
     list-style: circle;
-}
-
-a {
-    color: black!important;
-    background: rgba(245, 215, 110, .5);
-    transition: all linear .2s;
-
-    &:hover {
-        background: rgba(245, 215, 110, 1);
-        text-decoration: none;
-    }
 }
