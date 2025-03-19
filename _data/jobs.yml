@@ -5,9 +5,11 @@
     info : |
         * The Market
         * 자사 서비스 
+        * CJ 계열사
         * https://www.cjthemarket.com/pc/main
     description: |
         * 한국CCO 플랫폼담당 플랫폼)서비스개발팀
+        * 조건에 맞춘 자동 혜택 지급을 위한 Braze Webhook API 개발
         
 -   title: Java & Spring 백엔드 개발자
     company: (주) 현대퓨처넷
