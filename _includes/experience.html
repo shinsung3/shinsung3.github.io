@@ -10,18 +10,21 @@
                 <p class="company">
                     <span class="domain">{{ job.domain }}</span>
                 </p>
-                {{ job.info | strip | markdownify }}
-                {% if "https://" in job.info %}
-                    {% if "eql" in job.info %}
-                        <a href="{{ job.info }}" target="_blank">EQL (click)</a>
-                    {% elsif "hfashion" in job.info %}
-                        <a href="{{ job.info }}" target="_blank">H Fashion (click)</a>
-                    {% elsif "cj" in job.info %}
-                        <a href="{{ job.info }}" target="_blank">CJ더마켓 (click)</a>
+                {% for info in job.info | split: "\n" %}
+                    {% if "https://" in info %}
+                        {% if "eql" in info %}
+                            <p><a href="{{ info | strip }}" target="_blank">EQL (click)</a></p>
+                        {% elsif "hfashion" in line %}
+                            <p><a href="{{ info | strip }}" target="_blank">H Fashion (click)</a></p>
+                        {% elsif "cj" in line %}
+                            <p><a href="{{ info | strip }}" target="_blank">CJ더마켓 (click)</a></p>
+                        {% else %}
+                            <p><a href="{{ info | strip }}" target="_blank">{{ line | strip }}</a></p>
+                        {% endif %}
+                    {% else %}
+                        <p>{{ info | strip | markdownify }}</p>
                     {% endif %}
-                {% else %}
-                    {{ job.info | strip | markdownify }}
-                {% endif %}
+                {% endfor %}
             </dt><!--
             --><dd>
 <!--                 <p>{{ job.description }}</p> -->
