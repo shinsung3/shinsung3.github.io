@@ -11,7 +11,17 @@
                     <span class="domain">{{ job.domain }}</span>
                 </p>
                 {{ job.info | strip | markdownify }}
-                
+                {% if "https://" in job.info %}
+                    {% if "eql" in job.info %}
+                        <a href="{{ job.info }}" target="_blank">EQL (click)</a>
+                    {% elsif "hfashion" in job.info %}
+                        <a href="{{ job.info }}" target="_blank">H Fashion (click)</a>
+                    {% elsif "cj" in job.info %}
+                        <a href="{{ job.info }}" target="_blank">CJ더마켓 (click)</a>
+                    {% endif %}
+                {% else %}
+                    {{ job.info | strip | markdownify }}
+                {% endif %}
             </dt><!--
             --><dd>
 <!--                 <p>{{ job.description }}</p> -->
