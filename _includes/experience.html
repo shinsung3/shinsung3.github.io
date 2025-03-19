@@ -13,16 +13,17 @@
                 {% for info in job.info | split: "\n" %}
                     {% if "https://" contains info %}
                         {% if "eql" contains info %}
-                            <p><a href="{{ info | strip }}" target="_blank">EQL (click)</a></p>
+                            <a href="{{ info | strip }}" target="_blank">EQL (click)</a>
                         {% elsif "hfashion" contains line %}
-                            <p><a href="{{ info | strip }}" target="_blank">H Fashion (click)</a></p>
+                            <a href="{{ info | strip }}" target="_blank">H Fashion (click)</a>
                         {% elsif "cj" contains line %}
-                            <p><a href="{{ info | strip }}" target="_blank">CJ더마켓 (click)</a></p>
+                            <a href="{{ info | strip }}" target="_blank">CJ더마켓 (click)</a>
                         {% else %}
-                            <p><a href="{{ info | strip }}" target="_blank">{{ line | strip }}</a></p>
+                            <a href="{{ info | strip }}" target="_blank">{{ line | strip }}</a>
                         {% endif %}
                     {% else %}
                         <p>{{ info | strip | markdownify }}</p>
+                        <p>여기가 나오는건가요!?</p>
                     {% endif %}
                 {% endfor %}
             </dt><!--
