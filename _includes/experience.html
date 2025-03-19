@@ -15,12 +15,15 @@
                     {% if info contains "https://"%}
                         {% if info contains "eql" %}
                             <p><a href="{{ info | strip }}" target="_blank">EQL (click)</a></p>
-                        {% elsif info contains "hfashion" %}
+                        {% endif %}
+                        {% if info contains "hfashion" %}
                             <p><a href="{{ info | strip }}" target="_blank">H Fashion (click)</a></p>
-                        {% elsif info contains "cj" %}
+                        {% endif %}
+                        {% if info contains "cj" %}
                             <p><a href="{{ info | strip }}" target="_blank">CJ더마켓 (click)</a></p>
-                        {% else %}
-                            <p>{{ info | strip }}</p>
+                        {% endif %}
+                        {% if not (info contains "https") %}
+                            <p>{{ info | strip | markdownify }}</p>
                         {% endif %}
                     {% else %}
                         <p>{{ info | strip | markdownify }}</p>
