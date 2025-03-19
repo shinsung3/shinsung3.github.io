@@ -16,14 +16,11 @@
                     {% if info contains "https://"%}
                         {% if info contains "eql" %}
                             <p><a href="{{ info | strip }}" target="_blank">EQL (click)</a></p>
-                        {% endif %}
-                        {% if info contains "hfashion" %}
+                        {% elsif info contains "hfashion" %}
                             <p><a href="{{ info | strip }}" target="_blank">H Fashion (click)</a></p>
-                        {% endif %}
-                        {% if info contains "cj" %}
+                        {% elsif info contains "cj" %}
                             <p><a href="{{ info | strip }}" target="_blank">CJ더마켓 (click)</a></p>
-                        {% endif %}
-                        {% if not (info contains "eql" or info contains "hfashion" or info contains "cj") %}
+                        {% else %}
                             <p>{{ info | strip | markdownify }}</p>
                         {% endif %}
                     {% else %}
