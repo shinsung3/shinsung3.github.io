@@ -10,7 +10,8 @@
                 <p class="company">
                     <span class="domain">{{ job.domain }}</span>
                 </p>
-                {% for info in job.info | split: "*" %}
+                {% assign info_parts = job.info | split: "*" %}
+                {% for info in info_parts %}
                     {{ info }}
                     {% if info contains "https://"%}
                         {% if info contains "eql" %}
