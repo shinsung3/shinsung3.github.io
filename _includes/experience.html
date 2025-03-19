@@ -11,21 +11,21 @@
                     <span class="domain">{{ job.domain }}</span>
                 </p>
                 {% for info in job.info | split: "\n" %}
-                    {% if "https://" contains info %}
+                    {% if info contains "https://"%}
                 
-                        {% if "eql" contains info %}
+                        {% if info contains "eql" %}
                             <a href="{{ info | strip }}" target="_blank">EQL (click)</a>
-                        {% elsif "hfashion" contains line %}
+                        {% elsif info contains "hfashion" %}
                             <a href="{{ info | strip }}" target="_blank">H Fashion (click)</a>
-                        {% elsif "cj" contains line %}
+                        {% elsif info contains "cj" %}
                             <a href="{{ info | strip }}" target="_blank">CJ더마켓 (click)</a>
                         {% else %}
-                            <a href="{{ info | strip }}" target="_blank">{{ line | strip }}</a>
+                            <a href="{{ info | strip }}" target="_blank">{{ info | strip }}</a>
                         {% endif %}
                     {% else %}
                         <p>{{ info | strip | markdownify }}</p>
                         <p>여기가 나오는건가요!?</p>
-                        <p>{{"https" contains info}}</p>
+                        <p>{{info contains "https"}}</p>
                     {% endif %}
                 {% endfor %}
             </dt><!--
