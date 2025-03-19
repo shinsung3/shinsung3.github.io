@@ -12,6 +12,7 @@
                 </p>
                 {% for info in job.info | split: "\n" %}
                     {% if "https://" contains info %}
+                
                         {% if "eql" contains info %}
                             <a href="{{ info | strip }}" target="_blank">EQL (click)</a>
                         {% elsif "hfashion" contains line %}
@@ -24,6 +25,7 @@
                     {% else %}
                         <p>{{ info | strip | markdownify }}</p>
                         <p>여기가 나오는건가요!?</p>
+                        <p>{{"https" contains info}}</p>
                     {% endif %}
                 {% endfor %}
             </dt><!--
