@@ -11,12 +11,12 @@
                     <span class="domain">{{ job.domain }}</span>
                 </p>
                 {% for info in job.info | split: "\n" %}
-                    {% if "https://" in info %}
-                        {% if "eql" in info %}
+                    {% if "https://" contains info %}
+                        {% if "eql" contains info %}
                             <p><a href="{{ info | strip }}" target="_blank">EQL (click)</a></p>
-                        {% elsif "hfashion" in line %}
+                        {% elsif "hfashion" contains line %}
                             <p><a href="{{ info | strip }}" target="_blank">H Fashion (click)</a></p>
-                        {% elsif "cj" in line %}
+                        {% elsif "cj" contains line %}
                             <p><a href="{{ info | strip }}" target="_blank">CJ더마켓 (click)</a></p>
                         {% else %}
                             <p><a href="{{ info | strip }}" target="_blank">{{ line | strip }}</a></p>
