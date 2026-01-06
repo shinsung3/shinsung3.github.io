@@ -1,5 +1,44 @@
--   title: 리뷰 API인 Crema API 도입 프로젝트
+-   title: Lime (Health & Wellness) 전문관 신규 구축
     index: 1
+    period: 2025.9 ~ 현재진행중
+    info : |
+        * Spring Boot, Spring, Java, REST API
+        * Vue.js, JSP
+    person: |
+        * 개발 2명, 기획 1명, 마케팅 2명, 운영 3명
+    incharge: |
+        * Back Office 개발
+        * 백엔드 구조 설계
+        * 전시/콘텐츠 도메인 설계
+        * Front-End 연동 API 개발
+    description: |
+        * Health & Wellness 전문관 신규 런칭을 위한 전용 전시/콘텐츠 플랫폼 구축
+        * 상품, 레시피, 리뷰, 매거진, 이렇게먹어보세요, 배너, 전체상품리스트 등 다양한 콘텐츠 타입을 하나의 전시 구조를 위한 테이블 설계 및 통합
+        * 콘텐츠 타입별로 분리되어 있던 기존 구조를 공통 전시 모델로 재설계
+        * 운영자가 설정만으로 콘텐츠 구성 및 노출 순서를 변경할 수 있도록 Back Office 중심 구조 설계
+        * 신규 콘텐츠 타입 추가 시 API 및 테이블 확장만으로 대응 가능하도록 설계
+
+-   title: 장바구니 시스템 클라우드 전환 및 구조 개편
+    index: 2
+    period: 2025.06 ~ 2025.09
+    info : |
+        * Spring Boot, Java, Rest API
+        * AWS, Redis
+    person: |
+        * 개발 3명, 기획 1명
+    incharge: |
+        * 장바구니 백엔드 구조 개편
+        * 클라우드 전환 대응
+        * 데이터 정합성 및 안정성 개선
+    description: |
+        * 기존 장바구니 시스템의 클라우드 전환을 위한 구조 개편
+        * 트래픽 증가 및 확장 환경을 고려해 상태 관리 및 데이터 접근 구조 개선
+        * 장바구니 데이터의 정합성을 유지하면서도 확장 가능한 구조로 재설계
+        * 외부 서비스 및 혜택/정책 연계에 대응할 수 있도록 도메인 분리 및 API 구조 개선
+        * 추천 상품 및 구매전 추천 페이지 전체 개편
+        
+-   title: 리뷰를 위한 Crema API 연동 구조 개선 및 성능 최적화
+    index: 3
     period: 2023.10 ~ 2024.9
     info : |
         * Spring batch
@@ -26,8 +65,28 @@
             * 클레임 <mark>2.96sec → 0.13sec</mark>
         * H패션몰 H.Plus 포인트 적립에서 한섬 마일리지로 적립 전환을 위한 마일리지 API 개발
 
--   title: 타미힐피거 브랜드관 및 무스너클 브랜드관 신규 개발 프로젝트
-    index: 2
+-   title: 해외 브랜드 편집샵 입점 및 모바일 메인 페이지 구조 개선 (1:1 → 1:N) 및 확장성 리뉴얼
+    index: 4
+    period: 2022.10 ~ 2023.3
+    info : |
+        * Spring, Java
+        * JSP, JavaScript, jQuery
+    person: |
+        * 기획 2명, 개발 2명
+    incharge: |
+        * Back-End & Front-End 개발
+        * Back Office, H Fashion몰
+    description: |
+        *  300개 이상 해외 브랜드 편집샵 입점 개발
+            * PC/MO 브랜드 이름으로 검색페이지 개발(영어/한글)
+            * 브랜드 북마크 개발
+        * <mark>모바일 메인 페이지</mark> 전체 리뉴얼
+            * 메인 페이지 내 코너모듈마다 1:1로 연결되던 로직을 1:N로직으로 전체 개선하여 속도개선
+            * 데이터 연결 방식 변경
+            * 운영/확장 고려한 구조 개선
+
+-   title: 타미힐피거 브랜드관 및 무스너클 브랜드관 신규 개발 (외주 개발 기반, 내부 기술 책임 및 연동 담당)
+    index: 5
     period: 2023.2 ~ 2023.8
     info : |
         * Spring, Java
@@ -39,67 +98,7 @@
         * 프로젝트 매니징 (PM), QA, Back-End & Front-End 개발, 
         * Back Office, H Fashion몰
     description: |
-        * 전체 페이지 상품이 아닌 <mark>브랜드관 전용 검색</mark> 기능 개발
-        * H패션몰 내 타미힐피거, 무스너클만의 고유 색상을 가진 새로운 브랜드관 개발
-        * 브랜드만의 콘텐츠 연결 - 매거진, 리뷰, 기획전, 이벤트 연동
-        * 전체 QA 테스트 진행
-        * 개발 이후 사이드 이펙트 개발 및 제거
-
--   title: 해외 브랜드 편집샵 입점 및 모바일 메인페이지 UI/UX 리뉴얼
-    index: 3
-    period: 2022.10 ~ 2023.3
-    info : |
-        * Spring, Java
-        * JSP, JavaScript, jQuery
-    person: |
-        * 기획 2명, 개발 2명
-    incharge: |
-        * Back-End & Front-End 개발
-        * Back Office, H Fashion몰
-    description: |
-        *  <mark>300개 이상</mark> 해외 브랜드 편집샵 입점 개발
-            * PC/MO 브랜드 이름으로 검색페이지 개발(영어/한글)
-            * 브랜드 북마크 개발
-        * <mark>모바일 메인 페이지</mark> 전체 리뉴얼
-            * 메인 페이지 내 코너모듈마다 1:1로 연결되던 로직을 1:N로직으로 전체 개선하여 속도개선
-        
-
--   title: 고객 관심 채팅 분석 플랫폼 (라이브 & 리뷰)
-    index: 4
-    period: 2022.5 ~ 2022.10
-    info : |
-        * Python, Django, Rest API
-        * JavaScript, HTML, CSS
-    person: |
-        * 개발 2명
-    incharge: |
-        * 팀 리더, Back-End & Front-End 개발
-        * Back Office 개발
-    description: |
-        * <mark>스타트업데이 1등</mark>으로 회사 내 시스템 도입 시도
-        * 한섬 라이브 방송 <mark>채팅 분석</mark> 시스템 개발
-        * 한섬 상품 텍스트 데이터 <mark>리뷰 분석</mark> 시스템 개발
-        * 긍정어, 부정어 구분 기능
-        * Hot Keyword 분석 기능
-        * 가장 많이 언급된 키워드 분석 기능
-        * H Fashion몰 라이브 커머스 데이터 활용
-
--   title: 라이브 커머스인 Shoplive API 개발
-    index: 5
-    period: 2021.7 ~ 2022.3
-    info : |
-        * Spring, Java, Rest API
-        * JSP, JavaScript, jQuery
-        * JWT
-        * OAuth 2.0
-    person: |
-        * 기획 1명, 앱개발 1명, 웹개발 1명
-    incharge: |
-        * Back-End & Front-End 개발
-        * Back Office, H Fashion몰
-    description: |
-        * <mark>라이브 커머스 신규 페이지</mark> 생성
-        * 라이브 방송 댓글을 위한 회원 인증 JWT, OAuth 2.0 적용
-        * Rest API로 예정된 방송, 실시간 방송, 종료된 방송 API 개발
-        * 방송 중 쿠폰 다운로드 개발
-        * 방송 중 장바구니 기능 개발 
+        * 브랜드관 전용 검색 기능 요구사항 정의 및 백엔드 연동 설계
+        * 외주 개발 산출물 QA 및 사이드 이펙트 검증
+        * 기존 H패션몰 공통 전시/이벤트 구조와의 연결 로직 설계
+        * 오픈 이후 발생한 이슈 분석 및 수정 방향 제시
