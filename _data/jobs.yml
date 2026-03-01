@@ -3,42 +3,33 @@
     period: 2025.01.16 ~ 재직중
     info : |
         * The Market
-        * 자사 서비스 
-        * https://www.cjthemarket.com/pc/main
+        * 디지털커머스) 개발팀
     description: |
-        * 디지털커머스본부 개발팀
-        * Lime (Health & Wellness 전문관) 신규 전문관 플랫폼 구축
-        * 장바구니 시스템 클라우드 전환 및 구조 개편
-        * 조건에 맞춘 자동 혜택 지급을 위한 Braze Webhook API 개발
-        * 운영/협업 효율 개선을 위한 워크플로 n8n 자동화 및 AI 연계 실험
-        * 업무 생산성을 위한 자동화 생성 (n8n + AI Agent)
+        * Lime 신규 전문관 플랫폼 구축 _(전시 단일 테이블 Read Model 설계)_
+        * 장바구니 & 구매 전 추천 구조 개편 _(Spring Boot / Vue 클라우드 전환)_
+        * QA-개발 업무 생산성을 위한 자동화 생성 _(n8n + AI Agent)_
+        * 리뷰 이미지 분석 및 라벨링 _(Google Cloud Vision AI 활용)_
 
-        
 -   
-    company: (주) 현대퓨처넷
+    company: (주) 현대 IT&E
     period: 2021.01.04 ~ 2025.01.15
     info : |
-        * H Fashion 몰
-        * EQL 몰
+        * H Fashion 몰 / EQL 몰
+        * IT사업본부 운영지원사업부 한섬2팀
         * 현대백화점 계열사
-        * https://www.hfashionmall.com/main
-        * https://wch.eqlstore.com/main
     description: |
-        * IT사업본부 운영지원사업부 한섬2팀 _한섬_
-        * Redis 메모리 최적화 분석 및 장애 방지 개발
-        * 리뷰 활용를 위한 Crema API 도입 및 리뷰 플랫폼 연동 구조 개선
-        * 타미힐피거 & 무스너클 브랜드관 신규 개발 프로젝트 _(`23.02-`23.08)_
-        * 편집샵 입점 및 메인페이지 리뉴얼 _(`22.10-`23.03)_
-        
+        * Crema API 연동 구조 전면 개편 _(인터페이스 데이터 누적 98% 감소 최적화)_
+        * 트래픽 대비를 위한 _Redis_ 메모리 최적화 분석 및 장애 방지 로직 개발
+        * _리딩_ : 타미힐피거 & 무스너클 브랜드관 신규 개발 기반 기술 연동
+        * 300여 개 해외 브랜드 편집샵 입점 및 모바일 메인 페이지 구조 리뉴얼 _(1:1 ➔ 1:N)_
 -   
     company: (주) 대림
     period: 2020.01.01 ~ 2020.12.31
     info : |
-        * RPA
-        * WEB
+        * RPA & WEB
         * DL 계열사
-    description: |
         * IT사업부 제조SM팀 / 주임
+    description: |
         * 물류 시스템 (Dlogis) Web 시스템 개발 및 운영
         * RPA를 이용한 물류 세금 자동화 처리 시스템 개발 및 운영 (최초 도입)
 
