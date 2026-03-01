@@ -6,10 +6,10 @@
             <img class="profile" src="/img/8EB839CC-BD3F-4A43-A580-180A054BD974_1_102_o.jpeg" alt="profile">
         </dt><!--
         --><dd>
-            {% for me in site.data.aboutMe %}
-                <p class="introduction">{{ me.info }}</p>
+            {% for me in site.data.aboutMe.intro %}
+            <p class="introduction">{{ me.info }}</p>
             {% endfor %}
-            <p class="introduction">{{ site.data.aboutMe[0].toss }}</p>
+            <p class="introduction toss-highlight">{{ site.data.aboutMe.toss }}</p>
         </dd>
     </dl>
 </div>

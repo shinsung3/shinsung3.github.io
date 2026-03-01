@@ -1,6 +1,3 @@
-// @name Resume
-// @description All resume styles
-
 .me-img {
     margin-top: $spacer;
     text-align: center;
@@ -14,4 +11,9 @@
 .profile {
     width: 90%;
     border: 5px dashed lightblue;
+}
+
+.toss-highlight {
+    color: #c94a4a;
+    font-weight: 800;
 }
