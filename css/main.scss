@@ -18,3 +18,19 @@
     'project',
     'competency'
 ;
+
+@media print {
+    /* 1. 내용이 페이지 중간에 싹둑 잘리는 것을 방지 */
+    .experience, /* 경력사항 블록 */
+    .pro-ul,     /* 프로젝트 전체 블록 */
+    .sub-pro-ul li, /* 서브 프로젝트 리스트 */
+    .line {      /* 각 큰 섹션들 */
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* 2. (선택사항) 큰 제목 앞에서 무조건 새 페이지로 넘기고 싶을 때 */
+    /* .section-title {
+        page-break-before: always;
+    } */
+}

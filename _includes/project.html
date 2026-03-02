@@ -22,7 +22,16 @@
                 {{ pro.person | strip | markdownify }}
             </dt><!--
             --><dd class="pro-description">
-                {{ pro.description | strip | markdownify }}
+<!--                {{ pro.description | strip | markdownify }}-->
+                <p>▶ {{ pro.title2 }} ◀</p>
+                <div class="com-info">
+                    {% if pro.problem %}
+                    <b class="com-bold-title-color">Problem</b><br/>
+                    {{ pro.problem | strip | markdownify }}
+                    {% endif %}
+                    <b class="com-bold-title-color">Solution & Result</b>
+                    {{ pro.solution | strip | markdownify }}
+                </div>
             </dd>
         </dl>
     {% endfor %}

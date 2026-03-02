@@ -1,0 +1,24 @@
+<div class="line">
+    <h3 class="section-title">Other Experiences</h3>
+    <h5 class="kor-name">✔ 기타 주요 수행 프로젝트</h5>
+
+    <ul class="sub-pro-ul" style="list-style-type: none; padding-left: 0; margin-top: 20px;">
+        {% for sub in site.data.sub-project %}
+        <li style="margin-bottom: 25px;">
+            <h4 style="margin: 0 0 8px 0; font-size: 1.1em; color: #333;">
+                <b class="com-bold-title-color">📌 {{ sub.title }}</b>
+                <span style="font-size: 0.85em; color: #888; margin-left: 8px; font-weight: normal;">({{ sub.period }})</span>
+            </h4>
+
+            <div style="padding-left: 20px; font-size: 0.95em; line-height: 1.6; color: #555;">
+                <p style="margin: 3px 0;">
+                    <strong>사용 스킬 :</strong> {{ sub.skills }}
+                </p>
+                <div style="margin: 3px 0;">
+                    <strong>핵심 요약 :</strong> {{ sub.summary | strip | markdownify }}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
