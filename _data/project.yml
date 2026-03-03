@@ -17,8 +17,6 @@
         * 운영자가 설정만으로 콘텐츠 구성 및 노출 순서를 변경할 수 있도록 Back Office 중심 구조 설계
         * 신규 콘텐츠 타입 추가 시 API 및 테이블 확장만으로 대응 가능하도록 설계
     main: Health & Wellness 전문관 Lime 플랫폼 신규 구축
-    width: |
-        2025.09 ~ 2025.12 | 개발 2, 기획 1, 마케팅 2, 운영 3 | Spring Boot, Java, JPA, Vue.js
     title2: 이기종 도메인 통합을 위한 전시 구조 설계
     problem: |
         * <strong>비즈니스 제약 극복</strong>: SKU 40개 규모의 소형 전문관
@@ -40,7 +38,7 @@
 
 -   title: AI 이미지 라벨링 파이프라인
     index: 2
-    period: 2023.10 ~ 2024.9
+    period: 2026.02 ~ 2026.03
     info : |
         * Google Cloud Vision AI
         * Spring Boot
