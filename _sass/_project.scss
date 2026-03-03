@@ -38,3 +38,71 @@
     font-size: 90%;
     padding: 2px 4px;
 }
+
+/* 프로젝트 아이템 컨테이너 */
+.project-item {
+    margin-bottom: ($spacer * 4);
+}
+
+/* 상단 메타 정보 스타일 */
+.pro-meta-info {
+    margin-bottom: $spacer;
+    font-size: 0.9rem;
+    color: #666;
+
+    .meta-divider {
+        margin: 0 10px;
+        color: #ccc;
+    }
+
+    /* 마크다운으로 들어오는 기술 스택(p, ul 등)을 한 줄로 */
+    .meta-skills {
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        p, ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            gap: 8px;
+        }
+
+        li {
+            background: #f0f0f0;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+    }
+}
+
+/* 본문 영역 확장 */
+.pro-description {
+    width: 100%; /* 너비 100% 사용 */
+    max-width: 800px; /* 너무 길어지면 읽기 힘드므로 적당히 제한 */
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+
+.pro-subtitle {
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+.section-content {
+    margin-bottom: 25px;
+
+    .com-bold-title-color {
+        display: inline-block;
+        margin-bottom: 8px;
+        border-bottom: 2px solid #b39bcf; /* 강조 라인 추가 */
+    }
+}

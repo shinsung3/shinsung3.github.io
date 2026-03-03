@@ -2,16 +2,23 @@
     index: 1
     period: 2025.9 ~ 2025.12
     info : |
-        * Spring Boot, Spring, Java, REST API, JPA
-        * Vue.js, JSP
+        * Spring Boot
+        * Spring
+        * Java
+        * REST API
+        * JPA
+        * Vue.js
+        * JSP
     person: |
-        * 개발 2명, 기획 1명, 마케팅 2명, 운영 3명
+        개발 2, 기획 1, 마케팅 2, 운영 3
     description: |
         * Health & Wellness 전문관 신규 런칭을 위한 전용 <mark>전시/콘텐츠 플랫폼 구축</mark>
         * 상품, 레시피, 리뷰, 매거진, 이렇게먹어보세요, 배너, 전체상품리스트 등 다양한 콘텐츠 타입을 하나의 전시 구조를 위한 테이블 설계 및 통합
         * 운영자가 설정만으로 콘텐츠 구성 및 노출 순서를 변경할 수 있도록 Back Office 중심 구조 설계
         * 신규 콘텐츠 타입 추가 시 API 및 테이블 확장만으로 대응 가능하도록 설계
     main: Health & Wellness 전문관 Lime 플랫폼 신규 구축
+    width: |
+        2025.09 ~ 2025.12 | 개발 2, 기획 1, 마케팅 2, 운영 3 | Spring Boot, Java, JPA, Vue.js
     title2: 이기종 도메인 통합을 위한 전시 구조 설계
     problem: |
         * <strong>비즈니스 제약 극복</strong>: SKU 40개 규모의 소형 전문관
@@ -36,10 +43,11 @@
     period: 2023.10 ~ 2024.9
     info : |
         * Google Cloud Vision AI
-        * Spring Boot/Spring
+        * Spring Boot
+        * Spring
         * Kafka
     person: |
-        * 기획 1명, 개발 1명
+        기획 1, 개발 1
 #    incharge: |
 #        * 이미지 라벨링 개발
 #        * Back Office 개발
@@ -63,7 +71,7 @@
     info : |
         * Spring batch
     person: |
-        * 기획 1명, 백엔드 1명
+        기획 1, 개발 1
 #    incharge: |
 #        * Back-End 개발
 #        * Back Office 개발
@@ -97,9 +105,11 @@
     index: 4
     period: 2025.11 ~ 2025.01
     info : |
-        * n8n, chatGpt
+        * n8n
+        * chatGpt
+        * AI Agent
     person: |
-        * 개발 1명, QA담당자 1명
+        개발 1, QA 1
 #    incharge: |
 #        * n8n 업무 자동화 개발
     title2: 자발적 도구 개발을 통한 부서 간 협업 병목 현상 해결 및 QA 리드타임 33% 단축
@@ -120,9 +130,13 @@
     index: 5
     period: 2025.06 ~ 2025.09
     info : |
-        * Spring Boot, Java, Rest API, JPA, Vue.js
+        * Spring Boot
+        * Java
+        * Rest API
+        * JPA
+        * Vue.js
     person: |
-        * 개발 3명, 기획 1명
+        개발 3, 기획 1
 #    incharge: |
 #        * 백엔드 구조 개편
 #        * 클라우드 전환 대응

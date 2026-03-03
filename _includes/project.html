@@ -2,37 +2,36 @@
     <h3 class="section-title">Project</h3>
     <h5 class="kor-name">✔ 프로젝트</h5>
     {% for pro in site.data.project %}
+    <div class="project-item">
         <h4 class="pro-title center">
-            <p>{{ pro.index }}. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ pro.title }} </p>
+            <p>{{ pro.index }}. &nbsp; {{ pro.title }} </p>
         </h4>
-        <dl class="experience pro-ul">
-            <dt>
-                <p class="period">{{ pro.period }}</p>
-                <p class="pro-info">
-                    사용 스킬
-                </p>
+
+        <div class="pro-meta-info center">
+            <span class="meta-period">{{ pro.period }}</span>
+            <span class="meta-divider">|</span>
+            <span class="meta-person">인원: {{ pro.person | strip_html }}</span>
+            <span class="meta-skills">
                 {{ pro.info | strip | markdownify }}
-<!--                <p class="pro-info">-->
-<!--                    담당업무-->
-<!--                </p>-->
-                {{ pro.incharge | strip | markdownify }}
-                <p class="pro-info">
-                    투입인원
-                </p>
-                {{ pro.person | strip | markdownify }}
-            </dt><!--
-            --><dd class="pro-description">
-<!--                {{ pro.description | strip | markdownify }}-->
-                <p>▶ {{ pro.title2 }} ◀</p>
-                <div class="com-info">
-                    {% if pro.problem %}
-                    <b class="com-bold-title-color">Problem & Risk</b><br/>
+            </span>
+        </div>
+
+        <div class="pro-description">
+            <p class="pro-subtitle">▶ {{ pro.title2 }} ◀</p>
+            <div class="com-info">
+                {% if pro.problem %}
+                <div class="section-content">
+                    <b class="com-bold-title-color">Problem & Risk</b>
                     {{ pro.problem | strip | markdownify }}
-                    {% endif %}
+                </div>
+                {% endif %}
+
+                <div class="section-content">
                     <b class="com-bold-title-color">Solution & Result</b>
                     {{ pro.solution | strip | markdownify }}
                 </div>
-            </dd>
-        </dl>
+            </div>
+        </div>
+    </div>
     {% endfor %}
 </div>
