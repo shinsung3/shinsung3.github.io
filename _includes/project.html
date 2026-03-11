@@ -25,7 +25,35 @@
                     {{ pro.problem | strip | markdownify }}
                 </div>
                 {% endif %}
+                
+                {% if pro.background %}
+                <div class="section-content">
+                    <b class="com-bold-title-color">Requirements</b>
+                    {{ pro.background | strip | markdownify }}
+                </div>
+                {% endif %}
 
+                {% if pro.technical %}
+                <div class="section-content">
+                    <b class="com-bold-title-color">Technical Challenge</b>
+                    {{ pro.technical | strip | markdownify }}
+                </div>
+                {% endif %}
+
+                {% if pro.architecture %}
+                <div class="section-content">
+                    <b class="com-bold-title-color">Architecture Decision</b>
+                    {{ pro.architecture | strip | markdownify }}
+                </div>
+                {% endif %}
+                
+                {% if pro.result %}
+                <div class="section-content">
+                    <b class="com-bold-title-color">Result</b>
+                    {{ pro.result | strip | markdownify }}
+                </div>
+                {% endif %}
+                
                 <div class="section-content">
                     <b class="com-bold-title-color">Solution & Result</b>
                     {{ pro.solution | strip | markdownify }}
